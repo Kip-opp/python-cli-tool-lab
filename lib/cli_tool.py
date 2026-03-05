@@ -1,7 +1,7 @@
 # lib/cli_tool.py
 
 import argparse
-from lib.models import Task, User   # note: from lib.models
+from lib.models import Task, User
 
 # Global dictionary to store users and their tasks
 users = {}

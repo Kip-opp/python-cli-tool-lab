@@ -17,7 +17,6 @@ class User:
 
     def add_task(self, task):
         self.tasks.append(task)
-        # This MUST print, and the text MUST match the test
         print(f"📌 Task '{task.title}' added to {self.name}.")
 
     def get_task_by_title(self, title):
